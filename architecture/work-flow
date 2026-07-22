@@ -1,0 +1,34 @@
+  
+                        HOST
+                     Kali Linux 
+                     (Attacker)
+                       /   \
+                      /     \
+                     /       \
+                    /         \
+	           /           \
+	          /             \                 
+	        VM 1             VM 2
+             Windows 11 -------> UBUNTU SERVER           
+	     (Victim)           (Wazuh Manager)       
+                                        |
+                                        |
+                                        ↓
+				    Log Sources        
+				     • Windows Agent    
+				     • Linux Agent      
+				     • Syslog           
+				     • Suricata
+				            |
+				            |
+				            ↓  
+				     Detection Rules
+				     MITRE ATT&CK       
+				     Sigma              
+				     Custom Rules
+				            |
+				            |
+				            ↓ 
+				     Alerts & Dashboard 
+				     Dashboards         
+				     Reports            
