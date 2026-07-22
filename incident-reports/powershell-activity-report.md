@@ -14,9 +14,9 @@ Executive Summary
     
 Affected Assets
 
-    Hostname:
-    Username:
-    IP Address:
+    Hostname:ADMIN
+    Username:ADMIN
+    IP Address:172.16.139.129
     Operating System:
     
 Timeline

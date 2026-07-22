@@ -1,12 +1,11 @@
 Incident Information
-    Field	Details
-    Incident ID	IR-2026-002
-    Incident Name	Network Port Scan Detection
-    Severity	Medium
-    Category	Reconnaissance
-    Detection Source	IDS / SIEM
-    Analyst	Your Name
-    Status	Closed
+    Field	        Details
+    Incident ID	    : IR-2026-002
+    Incident Name	: Network Port Scan Detection
+    Severity	        : Medium
+    Category	        : Reconnaissance
+    Detection Source	: IDS / SIEM
+    Status          : Closed
     
     
 Executive Summary
@@ -14,27 +13,24 @@ Executive Summary
     A network reconnaissance activity was detected originating from a single internal host. The attacker used Nmap to enumerate open ports on multiple systems. The scan was identified through IDS alerts and firewall logs.
 
 Affected Assets
-    Scanner IP:
-    Target IP:
-    Hostname:
-    Network Segment:
+    Scanner IP:172.16.139.1
+    Target IP:172.16.139.131
+    Hostname:pc1
     
 Timeline
-Time	Event
-11:00	Port scan initiated
-11:01	IDS generated alert
-11:03	Firewall logs reviewed
-11:08	Source host isolated
-11:15	Investigation completed
+
+    Time	Event
+    11:00	Port scan initiated
+    11:01	IDS generated alert
+    11:03	Firewall logs reviewed
+    11:08	Source host isolated
+    11:15	Investigation completed
+
 Indicators of Compromise
 
-Scanner IP
+Scanner IP : 172.16.139.1
 
-192.168.1.100
-
-Target IP
-
-192.168.1.105
+Target IP : 172.16.139.131
 
 Common Ports :
 
