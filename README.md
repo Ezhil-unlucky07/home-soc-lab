@@ -19,7 +19,7 @@ To build a Security Operations Center (SOC) environment for monitoring, detectin
 ## Attack Simulations
 - Nmap scanning
 - SSH brute force attack
-- File modification monitoring
+- Powershell activity 
 
 ## Dashboard
 Screenshots available in /screenshots folder
